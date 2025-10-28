@@ -63,7 +63,7 @@ function gameLoop(timestamp) {
     ctx.save();
     ctx.fillStyle = "white";
     ctx.textAlign = "center";
-    ctx.font = "200px Roboto"
+    ctx.font = "200px Arial"
     ctx.fillText("Square Game", GAME_WIDTH / 2, GAME_HEIGHT / 2)
     ctx.restore();
   }
@@ -72,7 +72,7 @@ function gameLoop(timestamp) {
     ctx.save();
     ctx.fillStyle = "white";
     ctx.textAlign = "center";
-    ctx.font = "200px Roboto"
+    ctx.font = "200px Arial"
     ctx.fillText("By N. Lugo", GAME_WIDTH / 2, GAME_HEIGHT / 2)
     ctx.restore();
   }
